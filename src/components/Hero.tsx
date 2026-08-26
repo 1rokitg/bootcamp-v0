@@ -51,10 +51,15 @@ export default function Hero() {
         </p>
 
         {/* Video placeholder */}
-        <div className="reveal mx-auto mt-12 max-w-3xl">
+        <div
+          className="reveal mx-auto mt-12 max-w-3xl"
+          onClick={() =>
+            window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ", "_blank")
+          }
+        >
           <div className="group relative aspect-video overflow-hidden rounded-2xl border border-white/10 bg-ink-900 shadow-2xl shadow-black/40">
             <img
-              src="https://images.pexels.com/photos/6781273/pexels-photo-6781273.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+              src="./thumbnail.png"
               alt="Live crypto trading chart"
               className="h-full w-full object-cover opacity-50 transition-transform duration-700 group-hover:scale-105"
             />
