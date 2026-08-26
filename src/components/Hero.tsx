@@ -53,9 +53,7 @@ export default function Hero() {
         {/* Video placeholder */}
         <div
           className="reveal mx-auto mt-12 max-w-3xl"
-          onClick={() =>
-            window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ", "_blank")
-          }
+          onClick={() => window.open("https://whop.com/rokitg", "_blank")}
         >
           <div className="group relative aspect-video overflow-hidden rounded-2xl border border-white/10 bg-ink-900 shadow-2xl shadow-black/40">
             <img
@@ -132,7 +130,7 @@ export default function Hero() {
 
           <div className="mt-8 flex flex-col items-center gap-4">
             <a
-              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+              href="https://whop.com/rokitg"
               target="_blank"
               rel="noopener noreferrer"
               className="group inline-flex items-center gap-2 rounded-full bg-accent-500 px-7 py-3.5 text-sm font-600 text-ink-950 shadow-xl shadow-accent-500/25 transition-all hover:bg-accent-400 hover:shadow-accent-400/30"
