@@ -132,7 +132,9 @@ export default function Hero() {
 
           <div className="mt-8 flex flex-col items-center gap-4">
             <a
-              href="#apply"
+              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+              target="_blank"
+              rel="noopener noreferrer"
               className="group inline-flex items-center gap-2 rounded-full bg-accent-500 px-7 py-3.5 text-sm font-600 text-ink-950 shadow-xl shadow-accent-500/25 transition-all hover:bg-accent-400 hover:shadow-accent-400/30"
             >
               Continue to application
