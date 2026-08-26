@@ -1,11 +1,11 @@
-import { useEffect, useState } from 'react';
-import { Menu, X, TrendingUp } from 'lucide-react';
+import { useEffect, useState } from "react";
+import { Menu, X, TrendingUp } from "lucide-react";
 
 const links = [
-  { label: 'Inside', href: '#inside' },
-  { label: 'Mentor', href: '#mentor' },
-  { label: 'What You Get', href: '#included' },
-  { label: 'Apply', href: '#apply' },
+  { label: "Inside", href: "#inside" },
+  { label: "Mentor", href: "#mentor" },
+  { label: "What You Get", href: "#included" },
+  { label: "Apply", href: "#apply" },
 ];
 
 export default function Header() {
@@ -15,16 +15,16 @@ export default function Header() {
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 24);
     onScroll();
-    window.addEventListener('scroll', onScroll, { passive: true });
-    return () => window.removeEventListener('scroll', onScroll);
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
   return (
     <header
       className={`fixed inset-x-0 top-0 z-50 transition-all duration-500 ${
         scrolled
-          ? 'bg-ink-950/80 backdrop-blur-xl border-b border-white/[0.06]'
-          : 'bg-transparent border-b border-transparent'
+          ? "bg-ink-950/80 backdrop-blur-xl border-b border-white/[0.06]"
+          : "bg-transparent border-b border-transparent"
       }`}
     >
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 sm:px-8">
@@ -33,7 +33,7 @@ export default function Header() {
             <TrendingUp className="h-5 w-5 text-ink-950" strokeWidth={2.5} />
           </span>
           <span className="font-display text-lg font-700 tracking-tight text-white">
-            Astra<span className="text-accent-400"> Capital</span>
+            Social<span className="text-accent-400"> Capital</span>
           </span>
         </a>
 
@@ -67,7 +67,7 @@ export default function Header() {
       {/* Mobile menu */}
       <div
         className={`overflow-hidden border-t border-white/[0.06] bg-ink-950/95 backdrop-blur-xl transition-[max-height,opacity] duration-300 md:hidden ${
-          open ? 'max-h-80 opacity-100' : 'max-h-0 opacity-0'
+          open ? "max-h-80 opacity-100" : "max-h-0 opacity-0"
         }`}
       >
         <div className="flex flex-col gap-1 px-5 py-4">
