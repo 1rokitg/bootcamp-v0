@@ -48,7 +48,7 @@ export default function Header() {
             </a>
           ))}
           <a
-            href="#apply"
+            href="https://whop.com/rokitg"
             className="rounded-full bg-accent-500 px-5 py-2.5 text-sm font-600 text-ink-950 shadow-lg shadow-accent-500/20 transition-all hover:bg-accent-400 hover:shadow-accent-400/30"
           >
             Apply now
@@ -82,11 +82,11 @@ export default function Header() {
             </a>
           ))}
           <a
-            href="#apply"
+            href="https://whop.com/rokitg"
             onClick={() => setOpen(false)}
             className="mt-2 rounded-full bg-accent-500 px-5 py-3 text-center text-sm font-600 text-ink-950"
           >
-            Apply now
+            Apply Now
           </a>
         </div>
       </div>
